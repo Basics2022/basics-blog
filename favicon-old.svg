@@ -11,10 +11,10 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    id="svg2"
-   width="328"
-   height="67.333336"
-   viewBox="0 0 328 67.333336"
-   sodipodi:docname="logo.svg"
+   width="128"
+   height="128"
+   viewBox="0 0 128 128"
+   sodipodi:docname="favicon-old.svg"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    inkscape:export-filename="/home/davide/Documents/open_school_books/jupyterBook/basics/logo-basics.png"
    inkscape:export-xdpi="96"
@@ -27,7 +27,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -46,27 +46,19 @@
      inkscape:window-height="1016"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="9.0000002"
-     inkscape:cx="193.67389"
-     inkscape:cy="34.540122"
+     inkscape:zoom="3.1819805"
+     inkscape:cx="-9.7590089"
+     inkscape:cy="25.4504"
      inkscape:window-x="72"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2"
-     inkscape:snap-bbox="true"
-     inkscape:bbox-paths="true"
-     inkscape:bbox-nodes="true"
-     inkscape:snap-bbox-edge-midpoints="true"
-     inkscape:snap-bbox-midpoints="true"
-     inkscape:snap-text-baseline="true"
-     inkscape:snap-center="true"
-     inkscape:snap-object-midpoints="true"
-     inkscape:snap-page="true" />
+     inkscape:pagecheckerboard="true" />
   <flowRoot
      xml:space="preserve"
      id="flowRoot817"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'TeX Gyre Cursor';-inkscape-font-specification:'TeX Gyre Cursor';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000"
-     transform="translate(0,-14)"><flowRegion
+     transform="translate(0,46.666664)"><flowRegion
        id="flowRegion819"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'TeX Gyre Cursor';-inkscape-font-specification:'TeX Gyre Cursor';fill:#000000;stroke:#000000"><rect
          id="rect821"
@@ -76,26 +68,22 @@
          y="10.444447"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'TeX Gyre Cursor';-inkscape-font-specification:'TeX Gyre Cursor';fill:#000000;stroke:#000000" /></flowRegion><flowPara
        id="flowPara823"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:66.66666412px;font-family:arial;-inkscape-font-specification:arial;fill:#000000;stroke:#000000" /></flowRoot>  <text
-     xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:6.66666651px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;"
-     x="10.444445"
-     y="56.666672"
-     id="text817"><tspan
-       sodipodi:role="line"
-       id="tspan815"
-       x="10.444445"
-       y="56.666672"
-       style="font-size:53.33335495px;stroke:#000000;">basics</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:66.66666412px;font-family:arial;-inkscape-font-specification:arial;fill:#000000;stroke:#000000" /></flowRoot>  <circle
+     style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.1511811;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+     id="path908"
+     cx="64.277725"
+     cy="64.036537"
+     r="64" />
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:3.33333325px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.5"
-     x="172.41846"
-     y="20.510426"
-     id="text817-3"><tspan
+     style="font-style:normal;font-weight:normal;font-size:16.7710228px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:2.51565361"
+     x="22.720232"
+     y="114.71445"
+     id="text817"
+     transform="scale(1.0091839,0.99089968)"><tspan
        sodipodi:role="line"
-       id="tspan815-6"
-       x="172.41846"
-       y="20.510426"
-       style="font-size:26.66667747px;stroke:#000000;stroke-width:0.5">physics-hs</tspan></text>
+       id="tspan815"
+       x="22.720232"
+       y="114.71445"
+       style="font-weight:normal;font-size:134.16824341px;fill:#ffffff;stroke:#ffffff;stroke-width:2.51565361">b</tspan></text>
 </svg>
