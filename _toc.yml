@@ -5,3 +5,4 @@ format: jb-book
 root: index
 chapters:
 - file: posts/2025-06-09-my-first-post
+- file: posts/2025-11-12-structures-and-weak-form
