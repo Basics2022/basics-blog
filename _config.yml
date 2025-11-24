@@ -38,12 +38,12 @@ html:
 # sphinx extensions
 sphinx:
   config:
-    language: it
+    language: en
     html_theme_options:
       logo:
         image_light: logo.svg
         image_dark: logo-dark.svg
-      repository_url: https://github.com/Basics2022/bbooks-physics-hs  # Online location of your book
+      repository_url: https://github.com/Basics2022/basics-blog        # Online location of your book
       repository_branch: master
       use_repository_button: True
       use_edit_page_button: True
