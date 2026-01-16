@@ -9,6 +9,7 @@ parts:
   chapters:
   - file: posts/2025-06-09-my-first-post
   - file: posts/2025-11-12-structures-and-weak-form
+  - file: posts/2026-01-16-conics
 # - caption: Topic Index
 #   chapters:
 #   - url: /genindex
