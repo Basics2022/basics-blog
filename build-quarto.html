@@ -8,7 +8,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>basics blog &#8212; basics blog</title>
+    <title>README &#8212; basics blog</title>
   
   
   
@@ -64,11 +64,10 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'index';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'build-quarto';</script>
     <link rel="shortcut icon" href="_static/favicon-sugar.svg"/>
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="My first post" href="posts/2025-06-09-my-first-post.html" /> 
+    <link rel="search" title="Search" href="search.html" /> 
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>  
 <style type="text/css">
@@ -169,7 +168,7 @@ const thebe_selector_output = ".output, .cell_output"
 
   
 
-<a class="navbar-brand logo" href="#">
+<a class="navbar-brand logo" href="index.html">
   
   
   
@@ -262,7 +261,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/Basics2022/basics-blog/edit/master/index.md" target="_blank"
+      <li><a href="https://github.com/Basics2022/basics-blog/edit/master/build-quarto.md" target="_blank"
    class="btn btn-sm btn-source-edit-button dropdown-item"
    title="Suggest edit"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -279,7 +278,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/Basics2022/basics-blog/issues/new?title=Issue%20on%20page%20%2Findex.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/Basics2022/basics-blog/issues/new?title=Issue%20on%20page%20%2Fbuild-quarto.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -309,7 +308,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="_sources/index.md" target="_blank"
+      <li><a href="_sources/build-quarto.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -393,7 +392,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>basics blog</h1>
+    <h1>README</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -403,7 +402,25 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#latest-posts">Latest Posts</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#blogging-with-quarto">Blogging with Quarto</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#setup-and-create">Setup and create</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#setup-quarto">Setup Quarto</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#download-sources">Download sources</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#create-project">Create project</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#setup">Setup</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#create-and-setup-github-repo">Create and setup GitHub repo</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#create-github-action">Create GitHub action</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">…</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#create-posts">Create posts</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#git-add-commit-push-and-publish">Git add, commit, push and publish</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#local-preview">Local preview</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references-and-examples">References and Examples</a></li>
 </ul>
             </nav>
         </div>
@@ -414,18 +431,84 @@ document.write(`
                 
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
-                   <div class="tex2jax_ignore mathjax_ignore section" id="basics-blog">
-<span id="blog"></span><h1>basics blog<a class="headerlink" href="#basics-blog" title="Permalink to this heading">#</a></h1>
-<div class="section" id="latest-posts">
-<h2>Latest Posts<a class="headerlink" href="#latest-posts" title="Permalink to this heading">#</a></h2>
-<ul class="simple">
-<li><p><strong>2026-01-16:</strong> <a class="reference internal" href="posts/2026-01-16-conics.html"><span class="doc std std-doc"><strong>Quadratic equations and conics</strong></span></a></p></li>
-<li><p><strong>2025-11-12:</strong> <a class="reference internal" href="posts/2025-11-12-structures-and-weak-form.html"><span class="doc std std-doc"><strong>Weak form of equations and “energy” theorems in structural mechanics</strong></span></a></p></li>
-<li><p><strong>2025-06-09:</strong> <a class="reference internal" href="posts/2025-06-09-my-first-post.html"><span class="doc std std-doc"><strong>My First Post</strong></span></a></p></li>
-</ul>
+                   <div class="tex2jax_ignore mathjax_ignore section" id="readme">
+<h1>README<a class="headerlink" href="#readme" title="Permalink to this heading">#</a></h1>
+<div class="section" id="blogging-with-quarto">
+<h2>Blogging with Quarto<a class="headerlink" href="#blogging-with-quarto" title="Permalink to this heading">#</a></h2>
+<p>Basics blog with Quarto.</p>
+<p>Why Quarto? At a first impression, it looks good and with all the features I need, as described by Mark Isken on its blog <a class="reference external" href="https://bitsofanalytics.org/posts/port-to-quarto/">Bits of Analytics</a>.</p>
+<p>Hoping that this will feel like a clean extension of a Jupyter Book with fancy tools blog at the minimum pain, like tags and automatic layout of the main page with latest posts. That’s all I need here: just a tool blog made with .md and .ipynb, to be publicly hosted on GitHub, allowing comments.</p>
+<p>Here I’ll list some useful comments and references</p>
 </div>
-<hr class="docutils" />
-<div class="toctree-wrapper compound">
+<div class="section" id="setup-and-create">
+<h2>Setup and create<a class="headerlink" href="#setup-and-create" title="Permalink to this heading">#</a></h2>
+<div class="section" id="setup-quarto">
+<h3>Setup Quarto<a class="headerlink" href="#setup-quarto" title="Permalink to this heading">#</a></h3>
+<div class="section" id="download-sources">
+<h4>Download sources<a class="headerlink" href="#download-sources" title="Permalink to this heading">#</a></h4>
+<p>Download .deb or .tar from the official website.</p>
+</div>
+<div class="section" id="create-project">
+<h4>Create project<a class="headerlink" href="#create-project" title="Permalink to this heading">#</a></h4>
+<blockquote>
+<div><p>quarto create-project myblog –type website:blog</p>
+</div></blockquote>
+<p><strong>!</strong> It looks like <em>website:blog</em> doesn’t exist, but <em>–type website</em> does</p>
+</div>
+</div>
+<div class="section" id="setup">
+<h3>Setup<a class="headerlink" href="#setup" title="Permalink to this heading">#</a></h3>
+<div class="section" id="create-and-setup-github-repo">
+<h4>Create and setup GitHub repo<a class="headerlink" href="#create-and-setup-github-repo" title="Permalink to this heading">#</a></h4>
+<p>…</p>
+</div>
+<div class="section" id="create-github-action">
+<h4>Create GitHub action<a class="headerlink" href="#create-github-action" title="Permalink to this heading">#</a></h4>
+<p>Create branch <em>gh-pages</em>, and create GitHub action for updating deplyed website.</p>
+<p>…</p>
+</div>
+<div class="section" id="id1">
+<h4>…<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h4>
+<p>…</p>
+</div>
+</div>
+<div class="section" id="create-posts">
+<h3>Create posts<a class="headerlink" href="#create-posts" title="Permalink to this heading">#</a></h3>
+<blockquote>
+<div><p>quarto create post “Title”</p>
+</div></blockquote>
+<p><strong>!</strong> Not working with my current installation. Just create a folder containing an <em>index.qdm</em> or <em>index.ipynb</em> file for the post, and everything else is required (images, and other sources).</p>
+</div>
+<div class="section" id="git-add-commit-push-and-publish">
+<h3>Git add, commit, push and publish<a class="headerlink" href="#git-add-commit-push-and-publish" title="Permalink to this heading">#</a></h3>
+<blockquote>
+<div><p>git add .</p>
+</div></blockquote>
+<blockquote>
+<div><p>git commit -m “…”</p>
+</div></blockquote>
+<blockquote>
+<div><p>git push</p>
+</div></blockquote>
+<blockquote>
+<div><p>quarto publish gh-pages</p>
+</div></blockquote>
+</div>
+<div class="section" id="local-preview">
+<h3>Local preview<a class="headerlink" href="#local-preview" title="Permalink to this heading">#</a></h3>
+<blockquote>
+<div><p>quarto preview &amp;</p>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="references-and-examples">
+<h2>References and Examples<a class="headerlink" href="#references-and-examples" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://quarto.org/">https://quarto.org/</a></p></li>
+<li><p><a class="reference external" href="https://quarto.org/docs/websites/website-blog.html">https://quarto.org/docs/websites/website-blog.html</a></p></li>
+<li><p><a class="reference external" href="https://bitsofanalytics.org/">https://bitsofanalytics.org/</a></p></li>
+<li><p><a class="reference external" href="https://beamilz.com/">https://beamilz.com/</a></p></li>
+</ul>
 </div>
 </div>
 
@@ -462,15 +545,6 @@ document.write(`
                 <footer class="prev-next-footer">
                   
 <div class="prev-next-area">
-    <a class="right-next"
-       href="posts/2025-06-09-my-first-post.html"
-       title="next page">
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">My first post</p>
-      </div>
-      <i class="fa-solid fa-angle-right"></i>
-    </a>
 </div>
                 </footer>
               
@@ -486,7 +560,25 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#latest-posts">Latest Posts</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#blogging-with-quarto">Blogging with Quarto</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#setup-and-create">Setup and create</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#setup-quarto">Setup Quarto</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#download-sources">Download sources</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#create-project">Create project</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#setup">Setup</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#create-and-setup-github-repo">Create and setup GitHub repo</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#create-github-action">Create GitHub action</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">…</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#create-posts">Create posts</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#git-add-commit-push-and-publish">Git add, commit, push and publish</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#local-preview">Local preview</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references-and-examples">References and Examples</a></li>
 </ul>
   </nav></div>
 
