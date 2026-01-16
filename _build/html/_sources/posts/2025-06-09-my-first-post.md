@@ -1,4 +1,6 @@
 ---
+tags:
+  - general
 title: "My First Post"
 date: 2025-06-09
 ---
@@ -7,6 +9,10 @@ date: 2025-06-09
 
 (blog:first-post)=
 # My first post
+
+<!--
+{index}`general`
+-->
 
 bla bla bla
 bla bla bla

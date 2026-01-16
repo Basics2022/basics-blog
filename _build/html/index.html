@@ -68,9 +68,34 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="shortcut icon" href="_static/favicon-sugar.svg"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="My first post" href="posts/2025-06-09-my-first-post.html" />
+    <link rel="next" title="My first post" href="posts/2025-06-09-my-first-post.html" /> 
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:language" content="en"/>  
+<style type="text/css">
+  ul.ablog-archive {
+    list-style: none;
+    overflow: auto;
+    margin-left: 0px;
+  }
+  ul.ablog-archive li {
+    float: left;
+    margin-right: 5px;
+    font-size: 80%;
+  }
+  ul.postlist a {
+    font-style: italic;
+  }
+  ul.postlist-style-disc {
+    list-style-type: disc;
+  }
+  ul.postlist-style-none {
+    list-style-type: none;
+  }
+  ul.postlist-style-circle {
+    list-style-type: circle;
+  }
+</style>
+
   </head>
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-6WR9GSNW9H"></script>
@@ -171,7 +196,8 @@ const thebe_selector_output = ".output, .cell_output"
 </a></div>
         <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
-        <ul class="nav bd-sidenav">
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Blog Posts</span></p>
+<ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="posts/2025-06-09-my-first-post.html">My first post</a></li>
 <li class="toctree-l1"><a class="reference internal" href="posts/2025-11-12-structures-and-weak-form.html">Weak form of equations and “energy” theorems in structural mechanics</a></li>
 </ul>
@@ -386,11 +412,7 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#latest-posts">Latest Posts</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#weak-form-of-equations-and-energy-theorems-in-structural-mechanics"><span class="xref myst">Weak form of equations and “energy” theorems in structural mechanics</span></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#my-first-post"><span class="xref myst">My First Post</span></a></li>
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#latest-posts">Latest Posts</a></li>
 </ul>
             </nav>
         </div>
@@ -401,24 +423,15 @@ document.write(`
                 
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
-                  
-  <div class="tex2jax_ignore mathjax_ignore section" id="basics-blog">
+                   <div class="tex2jax_ignore mathjax_ignore section" id="basics-blog">
 <span id="blog"></span><h1>basics blog<a class="headerlink" href="#basics-blog" title="Permalink to this heading">#</a></h1>
 <div class="section" id="latest-posts">
 <h2>Latest Posts<a class="headerlink" href="#latest-posts" title="Permalink to this heading">#</a></h2>
-<div class="section" id="weak-form-of-equations-and-energy-theorems-in-structural-mechanics">
-<h3><a class="reference internal" href="posts/2025-11-12-structures-and-weak-form.html"><span class="doc std std-doc">Weak form of equations and “energy” theorems in structural mechanics</span></a><a class="headerlink" href="#weak-form-of-equations-and-energy-theorems-in-structural-mechanics" title="Permalink to this heading">#</a></h3>
-<p><em>2025-11-12</em></p>
-</div>
-<hr class="docutils" />
-<div class="section" id="my-first-post">
-<h3><a class="reference internal" href="posts/2025-06-09-my-first-post.html"><span class="doc std std-doc">My First Post</span></a><a class="headerlink" href="#my-first-post" title="Permalink to this heading">#</a></h3>
-<p><em>2025-06-09</em></p>
-<p>bla bla bla
-bla bla bla
-bla bla bla
-bla bla bla</p>
-</div>
+<ul class="simple">
+<li><p><strong>2026-01-16:</strong> <a class="reference internal" href="posts/2026-01-16-conics.html"><span class="doc std std-doc"><strong>Quadratic equations and conics</strong></span></a></p></li>
+<li><p><strong>2025-11-12:</strong> <a class="reference internal" href="posts/2025-11-12-structures-and-weak-form.html"><span class="doc std std-doc"><strong>Weak form of equations and “energy” theorems in structural mechanics</strong></span></a></p></li>
+<li><p><strong>2025-06-09:</strong> <a class="reference internal" href="posts/2025-06-09-my-first-post.html"><span class="doc std std-doc"><strong>My First Post</strong></span></a></p></li>
+</ul>
 </div>
 <hr class="docutils" />
 <div class="toctree-wrapper compound">
@@ -444,6 +457,9 @@ bla bla bla</p>
     }
     </script>
     <script>kernelName = 'python3'</script>
+<div class="section">
+   
+</div>
 
                 </article>
               
@@ -479,11 +495,7 @@ bla bla bla</p>
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#latest-posts">Latest Posts</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#weak-form-of-equations-and-energy-theorems-in-structural-mechanics"><span class="xref myst">Weak form of equations and “energy” theorems in structural mechanics</span></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#my-first-post"><span class="xref myst">My First Post</span></a></li>
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#latest-posts">Latest Posts</a></li>
 </ul>
   </nav></div>
 

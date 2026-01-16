@@ -57,5 +57,21 @@ sphinx:
     - sphinx_exercise
     - sphinxcontrib.bibtex
     - sphinx.ext.autodoc  # keep existing extensions
+    - ablog
+  myst_enable_extensions:
+      - colon_fence
+      - deflist
+      - dollarmath
+      - fieldlist
+      - html_admonition
+      - html_image
+      - linkify
+      - substitution
+  myst_metadata_getter: myst_metadata
+  blog:
+    enabled: true
+    feed: true
+    post_pattern: "posts/*"
+    tags: true
 
 

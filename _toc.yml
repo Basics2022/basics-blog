@@ -3,6 +3,15 @@
 
 format: jb-book
 root: index
-chapters:
-- file: posts/2025-06-09-my-first-post
-- file: posts/2025-11-12-structures-and-weak-form
+
+parts:
+- caption: Blog Posts
+  chapters:
+  - file: posts/2025-06-09-my-first-post
+  - file: posts/2025-11-12-structures-and-weak-form
+# - caption: Topic Index
+#   chapters:
+#   - url: /genindex
+#     title: Article Tags and Index
+
+# - file: genindex 
